@@ -1,0 +1,100 @@
+/* Your existing styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #555; /* Updated text color */
+    background-color: #e8e8e8; /* Light grey background color */
+}
+
+header {
+    background-color: #373c3c; /* Darker header background color */
+    color: #fff; /* Light text color */
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 20px;
+    border-radius: 10px;
+    color: #2e2d2d; /* Updated text color */
+}
+
+.intro {
+    flex: 1;
+    text-align: center;
+}
+
+.intro img {
+    flex-wrap: wrap;
+    width: 100%; /* Adjust the width as needed */
+    border-radius: 10px; /* Adjust the border-radius to create rounded rectangle */
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .intro img{
+        justify-content: center;
+    }
+}
+.about-me-sections {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    gap: 20px;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+    border: 1px solid #444; /* Darker border color */
+    border-radius: 5px;
+    background-color: #5d6668; /* Lighter section background color */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333; /* Darker footer background color */
+    color: #fff; /* Light text color */
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff; /* Light link color */
+    text-decoration: none;
+}
+
+/* Additional Colors */
+
+/* Cyan color */
+.cyan-color {
+    color:#a0cfcd;
+}
+
+/* Teal color */
+.teal-color {
+    color: #a0cfcd;
+}
+
+/* Light gray color */
+.light-gray-color {
+    color: #c5c0c0;
+}
+
+/* White color */
+.white-color {
+    color: #fff;
+}
