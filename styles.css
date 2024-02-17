@@ -1,100 +1,146 @@
-/* Your existing styles */
-
 body {
-    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: sans-serif;
     margin: 0;
-    padding: 20px;
-    color: #555; /* Updated text color */
-    background-color: #e8e8e8; /* Light grey background color */
+    padding: 0;
 }
 
 header {
-    background-color: #373c3c; /* Darker header background color */
-    color: #fff; /* Light text color */
-    text-align: center;
-    padding: 10px;
-    border-radius: 10px;
-    flex: 1;
-}
-
-main {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-    gap: 20px;
-    border-radius: 10px;
-    color: #2e2d2d; /* Updated text color */
-}
-
-.intro {
-    flex: 1;
-    text-align: center;
-}
-
-.intro img {
-    flex-wrap: wrap;
-    width: 100%; /* Adjust the width as needed */
-    border-radius: 10px; /* Adjust the border-radius to create rounded rectangle */
-    position: relative;
-}
-
-@media (max-width: 768px) {
-    .intro img{
-        justify-content: center;
-    }
-}
-.about-me-sections {
-    flex: 2;
-    display: flex;
-    flex-direction: column;
-    border-radius: 15px;
-    gap: 20px;
-    color: #fff;
-}
-
-section {
+    /*background-color: #ADBC9F;*/
     padding: 20px;
-    border: 1px solid #444; /* Darker border color */
-    border-radius: 5px;
-    background-color: #5d6668; /* Lighter section background color */
+    text-align: center;
+    /*color: #D2E3C8;*/
+}
+
+h1, h2, h3, h4 {
+    color: #EEF0E5;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive;
+    
+}
+
+p {
+    color: #eff7eb;
+    margin-bottom: 15px;
+}
+
+#about {
+    padding: 30px;
+}
+
+#skills {
+    background-color: #112519;
+    padding: 30px;
+    color: #E1F0DA;
+    padding: 30px;
+
+
+}
+
+
+#interests {
+    background-color: #112519;
+    padding: 30px;
+    color: #E1F0DA;
+    justify-content: center;
+
+}
+
+#contact {
+    padding: 30px;
+    color: #e9efe4;
 }
 
 footer {
+    background-color: #112519;
+    padding: 20px;
     text-align: center;
+}
+
+img {
+    max-width: 200px;
+    border-radius: 5px;
+    margin: 10px;
+    width: 30%; /* Adjust width of images */
+    height: auto; /* Maintain aspect ratio */
+}
+
+ul {
+    list-style: disc;
     padding: 10px;
-    background-color: #333; /* Darker footer background color */
-    color: #fff; /* Light text color */
+} 
+
+ol {
+    list-style: decimal;
+    padding: 10px;
 }
 
-.social-media {
-    margin-top: 20px;
+table {
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    width: 100%;
 }
 
-.social-media a {
-    display: inline-block;
-    margin: 0 10px;
-    color: #fff; /* Light link color */
-    text-decoration: none;
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
 }
 
-/* Additional Colors */
-
-/* Cyan color */
-.cyan-color {
-    color:#a0cfcd;
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
 }
 
-/* Teal color */
-.teal-color {
-    color: #a0cfcd;
+label {
+    margin-bottom: 5px;
 }
 
-/* Light gray color */
-.light-gray-color {
-    color: #c5c0c0;
+input[type="text"], input[type="email"], textarea {
+    padding: 8px;
+    border-radius: 5%;
+    margin-bottom: 10px;
 }
 
-/* White color */
-.white-color {
-    color: #fff;
+button {
+    background-color: #112519;
+    color: rgb(170, 215, 167);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table, th, td {
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.image-container {
+    display: flex; /* Use flexbox to align images in a row */
+    justify-content: center;
+    
+    
+    padding: 10px;
+
+}
+
+#music {
+
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons {
+    text-align: center; /* Center-align the icons horizontally */
+  }
+  
+.social-icons a {
+    display: inline-block; /* Display the icons as inline-block elements */
+    margin: 0 10px; /* Add space between the icons */
+    font-size: 24px; /* Set the size of the icons */
+    color: #ffffff; /* Set the color of the icons */
 }
