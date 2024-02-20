@@ -59,7 +59,7 @@ p {
 
 
 #interests {
-    text-align: center; /* Optional: Align content to the center */
+    text-align: left; /* Optional: Align content to the center */
     background-color: #112519;
     padding: 30px;
     color: #b6d7a7;
@@ -155,7 +155,25 @@ button {
     
 }
 
+@media (max-width: 767px) {
+    .image-container {
+        display: flex; /* Use flexbox to align images in a row */
+        justify-content: center;}
 
+        .video-container {
+            display: flex; 
+            justify-content: center;}
+            .container {
+                text-align: center;
+                justify-content: space-around;
+            }
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
 
 .image-container {
     display: flex; /* Use flexbox to align images in a row */
@@ -167,11 +185,10 @@ button {
 
 }
 .video-container {
-    display: flex; /* Use flexbox to align images in a row */
+    display: flex; 
     justify-content: center;
     width: auto;
     max-height: 300px;
-    
     padding: 5px;
 
 }
